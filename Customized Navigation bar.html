@@ -1,0 +1,337 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+
+.img{
+  padding:10%;
+}
+.leftnav
+{
+  color: black;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  /*background-color: #555;*/
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 118px;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  background-color: orange;
+}
+/*
+ .navbar a:hover { 
+  background-color: #000;
+}*/
+
+.header {
+  padding: 20px;
+  
+  background: orange;
+ 
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+p {
+    margin: 0 0 10px;
+    padding: 3%;
+    width: 74%;
+}
+
+.h2, h2 {
+    font-size: 30px;
+    font-weight: 800;
+    padding:10%;
+}
+
+.h4, h4 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.img {
+    vertical-align: middle;
+    height:175px;
+    width: 275px;
+    padding:3%;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: orange;
+}
+
+#rcorners1 {
+  border-radius: 10px 80px;
+
+  padding: 20px; 
+  width: 250px;
+  height: 250px;  
+}
+
+
+
+
+/* Create two equal columns that floats next to each other */
+.column3 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 30px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.thicker {
+  font-weight:bold;
+  text-align: center;
+}
+
+.btn
+{
+}
+
+</style>
+
+</head>
+<body>
+
+
+  <div class="header">
+ <br>
+ <br>
+
+  </div>
+  
+<div class="container-fluid">
+ 
+  
+  <br>
+ 
+  <div class="row">
+      <div class="col-sm-4" style="background-color:white;">
+       <div class="navbar">
+        <h4 class="leftnav"
+          >Bliss</h4>
+       </div>
+      </div>
+
+      <div class="col-sm-8" style="background-color:white;">
+        <div class="navbar">
+        <a  class="active" href="#" style="color: black;"> Home</a> 
+        <a class="active" href="#" style="color: black;"> About</a> 
+        <a class="active" href="#"  style="color: black;"></i> Service</a> 
+        <a href="#" style="color: black;">BLOG</a> 
+        <a href="#" style="color: black;" >Contact US</a> 
+        <a href="#"><i style="color:black;" class="fa fa-fw fa-user"></i></a>
+        <a href="#"><i style="color:black;" class="fa fa-fw fa-search"></i> </a> 
+        </div>
+      </div>
+
+  </div>
+
+<br>
+<br>
+
+  <div class="row2">
+    <div class="column" style="background-color:white">
+    
+    <h2  style="text-align: center;" "font-weight: 900;">Spa Center    </h2>
+    <p>Commodo consequat.Duis aute irure dolor i reprhenderit in voluptate velit esse cillum dolore eu fugat nulla pariatue. Excepteur sint</p>
+    <br>
+    <br>
+   
+
+
+    <div class="row2_1">
+      <div class="column3" style="background-color:white;">
+        <button class="button" >CONTACT US </button>
+      </div>
+  
+  
+      <div class="column3" style="background-color:white;">
+        <button class="button">READ MORE</button>
+      </div>
+
+    </div>
+
+
+    </div>
+
+   <div class="column" style="background-color:white;">
+
+  <video id="rcorners1" width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video>
+  </div>
+
+  <div class="column" style="background-color:white">
+   <video id="rcorners1" width="320" height="240" controls>
+  <source src="https://www.youtube.com/watch?v=YhcQfLVgSxQ" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video>
+  </div>
+
+  </div>
+
+  </div>
+
+<br>
+<br>
+
+<h1 style="text-align:center"> Our Massage Services</h1>
+
+<div class="row">
+  
+  <div class="column" style="background-color:white" >
+    <h2>Ayurveda Spa</h2>
+      
+        <img class="img" height="150"  width="300" src="https://www.shutterstock.com/shutterstock/photos/363130853/display_1500/stock-photo-spa-herbal-compressing-ball-on-white-background-363130853.jpg" ></img>
+      
+          <p > Commodo consequat.Duis aute irure dolor i reprhenderit in voluptate velit esse cillum dolore eu fugat nulla pariatue. Excepteur sint</p>
+            
+            <div class="btn"><button class="button">READ MORE</button></div>
+  </div>
+
+  <div class="column" style="background-color:white; " >
+    <h2>Massage  Spa</h2>
+      <img class="img" height="150"  width="300"src=https://www.shutterstock.com/shutterstock/photos/238733614/display_1500/stock-photo-spa-still-life-with-oil-isolated-on-white-background-238733614.jpg ></img>
+        <p>Commodo consequat.Duis aute irure dolor i reprhenderit in voluptate velit esse cillum dolore eu fugat nulla pariatue. Excepteur sint</p>
+          <button class="button">READ MORE</button>
+  </div>
+
+
+  <div class="column" style="background-color:white"  >
+    <h2>Luxury Spa</h2>
+    <img  class="img" height="150"  width="300"src= "https://www.shutterstock.com/shutterstock/photos/231385546/display_1500/stock-photo-spa-still-life-with-candle-isolated-on-white-background-231385546.jpg"></img>
+      <p>Commodo consequat.Duis aute irure dolor i reprhenderit in voluptate velit esse cillum dolore eu fugat nulla pariatue. Excepteur sint</p>
+        <div class="btn"><button class="button">READ MORE</button></div>
+   </div>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="row2">
+<h1 style="text-align:center"> Latest Blog</h1>
+<h3 style="text-align:center"> Duis qute irure dolor in reprehenderit im voluptrat velit esse cilum doloremeu </h3>
+  <div class="column" style="background-color:white" >
+    <h2>Ayurveda Spa</h2>
+      <img class="img" height="150"  width="300" src="https://www.shutterstock.com/shutterstock/photos/271578191/display_1500/stock-photo-balancing-stones-on-a-rough-stone-background-271578191.jpg" ></img>
+        <p > Commodo consequat.Duis aute irure dolor i reprhenderit in voluptate velit esse cillum dolore eu fugat nulla pariatue. Excepteur sint</p>
+           <div class="btn"><button class="button">READ MORE</button></div>
+  </div>
+
+  <div class="column" style="background-color:white; " >
+    <h2>Massage  Spa</h2>
+      <img class="img" height="150"  width="300"src=https://www.shutterstock.com/shutterstock/photos/2417892019/display_1500/stock-photo-woman-enjoys-orchid-flowers-on-window-sill-girl-taking-care-of-home-plants-2417892019.jpg ></img>
+        <p>Commodo consequat.Duis aute irure dolor i reprhenderit in voluptate velit esse cillum dolore eu fugat nulla pariatue. Excepteur sint</p>
+           <div class="btn"><button class="button">READ MORE</button></div>
+  </div>
+
+
+  <div class="column" style="background-color:white"  >
+    <h2>Luxury Spa</h2>
+      <img class="img" height="150"  width="300"src= "https://www.shutterstock.com/shutterstock/photos/2462249383/display_1500/stock-photo-side-view-of-unrecognizable-relaxed-young-woman-getting-ayurvedic-feet-massage-with-kizhi-herbal-2462249383.jpg"></img>
+        <p>Commodo consequat.Duis aute irure dolor i reprhenderit in voluptate velit esse cillum dolore eu fugat nulla pariatue. Excepteur sint</p>
+           <div class="btn"><button class="button">READ MORE</button></div>
+  </div>
+
+ 
+
+</div>
+
+</body>
+</html> 

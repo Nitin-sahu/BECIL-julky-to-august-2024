@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#rcorners1 {
+  border-radius: 10px 80px;
+
+  padding: 20px; 
+  width: 250px;
+  height: 250px;  
+}
+</style>
+</head>
+<body>
+
+<h2>Three Equal Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Spa Center</h2>
+    <p>Commodo consequat.Duis aute irure dolor i reprhenderit in voluptate velit esse cillum dolore eu fugat nulla pariatue. Excepteur sint</p>
+    <p><button class="button">Contact US </button>
+<button class="button">READ MORE</button>
+</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+
+<video id="rcorners1" width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+
+  </div>
+  <div class="column" style="background-color:#ccc;">
+   <video id="rcorners1" width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+  </div>
+</div>
+
+</body>
+</html>
